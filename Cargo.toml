@@ -1,0 +1,12 @@
+[package]
+name = "ljprs_es"
+description = "Provides the core types to facilitate event sourcing in Rust."
+homepage = "https://github.com/lukejoshuapark/ljprs_es"
+repository = "https://github.com/lukejoshuapark/ljprs_es"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+async-trait = "0.1"
